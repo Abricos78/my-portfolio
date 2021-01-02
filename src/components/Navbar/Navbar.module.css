@@ -1,0 +1,38 @@
+
+.navbarContainer {
+    display: grid;
+    grid-template-areas: 'logo navbar';
+    /* grid-template-columns: 70% 30%; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* box-shadow: 1px 1px 10px 2px lightgray; */
+    align-items: baseline;
+}
+
+.logo {
+    grid-area: logo;
+    margin: 20px;
+}
+
+.navbar {
+    float: right;
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbar li {
+    margin-right: 8%;
+    font-size: 1.25rem;
+}
+
+.navbar a {
+    transition: all ease .5s;
+}
+
+.navbar a:hover {
+    color: red;
+}
+

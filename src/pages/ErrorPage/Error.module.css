@@ -1,0 +1,30 @@
+.error {
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+}
+
+.error h1 {
+    letter-spacing: .9px;
+    color: #003b46;
+}
+
+.btn {
+    margin: 0 auto;
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    background-color: #003b46;
+    transition: all ease .5s;
+    width: 10%;
+}
+.btn a {
+    color: white;
+}
+
+.btn:hover {
+    position: relative;
+    transform: scale(1.2);
+
+}

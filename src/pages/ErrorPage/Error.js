@@ -1,11 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import style from './Error.module.css'
 
 function Error() {
     return (
-        <div>
-            <h1>Error Page</h1>
-        </div>
+        <section className={style.error}>
+            <h1>Ooops! Something went wrong. Let's go back!</h1>
+            <div className={style.btn}>
+                <Link to='/'>Go Home</Link>
+            </div>
+        </section>
     )
 }
 
